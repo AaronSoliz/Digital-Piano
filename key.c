@@ -1,16 +1,5 @@
 // Key.c
 // This software configures the off-board piano keys
-// Lab 6 requires a minimum of 4 keys, but you could have more
-// Runs on LM4F120 or TM4C123
-// Program written by: put your names here
-// Date Created: 3/6/17 
-// Last Modified: 10/15/21  
-// Lab number: 6
-// Hardware connections
-// TO STUDENTS "REMOVE THIS LINE AND SPECIFY YOUR HARDWARE********
-
-// Code files contain the actual implemenation for public functions
-// this file also contains an private functions and private data
 #include <stdint.h>
 #include "../inc/tm4c123gh6pm.h"
 
@@ -64,13 +53,4 @@ void LaunchPad_Init(void){
 uint8_t LaunchPad_Input(void){
 // implement if needed
   return 0; // replace   
-}
-//------------LaunchPad__Output------------
-// Output to LaunchPad LEDs 
-// Positive logic hardware and positive logic software
-// Input: 0 off, bit0=red,bit1=blue,bit2=green
-// Output: none
-void LaunchPad_Output(uint8_t data){  // write three outputs bits of PORTF
-// implement if needed
-
 }
