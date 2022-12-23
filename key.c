@@ -40,17 +40,3 @@ void LaunchPad_Init(void){
 		GPIO_PORTF_DEN_R = 0x1F;
 		GPIO_PORTF_DATA_R = 0;
 }
-
-
-//------------LaunchPad_Input------------
-// Input from Switches, 
-// Convert hardware negative logic to software positive logic 
-// Input: none
-// Output: 0x00 none
-//         0x01 SW2 pressed (from PF4)
-//         0x02 SW1 pressed (from PF1)
-//         0x03 both SW1 and SW2 pressed
-uint8_t LaunchPad_Input(void){
-// implement if needed
-  return 0; // replace   
-}
