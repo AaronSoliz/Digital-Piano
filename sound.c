@@ -1,15 +1,5 @@
-// Sound.c
 // This module contains the SysTick ISR that plays sound
 // Runs on TM4C123
-// Program written by: put your names here
-// Date Created: 3/6/17 
-// Last Modified: 1/6/21 
-// Lab number: 6
-// Hardware connections
-// TO STUDENTS "REMOVE THIS LINE AND SPECIFY YOUR HARDWARE********
-
-// Code files contain the actual implemenation for public functions
-// this file also contains an private functions and private data
 #include <stdint.h>
 #include "dac.h"
 #include "../inc/tm4c123gh6pm.h"
@@ -54,7 +44,6 @@ void Sound_Start(uint32_t period){
 
 // **************Sound_Voice*********************
 // Change voice
-// EE319K optional
 // Input: voice specifies which waveform to play
 //           Pointer to wave table
 // Output: none
@@ -70,7 +59,6 @@ void Sound_Off(void){
 }
 // **************Sound_GetVoice*********************
 // Read the current voice
-// EE319K optional
 // Input: 
 // Output: voice specifies which waveform to play
 //           Pointer to current wavetable
