@@ -12,7 +12,7 @@ void DAC_Init(void);
 void DAC_Out(uint8_t data);   
 uint8_t Testdata;
 
-// lab video Lab6_voltmeter
+
 int voltmetermain(void){ //voltmetermain(void){     
   TExaS_Init(SCOPE);    // bus clock at 80 MHz
   DAC_Init(); 
