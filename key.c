@@ -1,4 +1,3 @@
-// Key.c
 // This software configures the off-board piano keys
 #include <stdint.h>
 #include "../inc/tm4c123gh6pm.h"
