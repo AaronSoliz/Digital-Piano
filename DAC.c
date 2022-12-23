@@ -1,20 +1,5 @@
-// DAC.c
-// This software configures DAC output
-// Lab 6 requires 6 bits for the DAC
-// Runs on LM4F120 or TM4C123
-// Program written by: put your names here
-// Date Created: 3/6/17 
-// Last Modified: 10/15/21 
-// Lab number: 6
-// Hardware connections
-// TO STUDENTS "REMOVE THIS LINE AND SPECIFY YOUR HARDWARE********
-
 #include <stdint.h>
 #include "../inc/tm4c123gh6pm.h"
-// Code files contain the actual implemenation for public functions
-// this file also contains an private functions and private data
-
-
 
 // **************DAC_Init*********************
 // Initialize 6-bit DAC, called once 
